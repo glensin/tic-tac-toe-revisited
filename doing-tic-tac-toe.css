@@ -1,0 +1,61 @@
+.border{
+  height: 630px;
+  width: 630px;
+  /*border: 3px solid black;*/
+  margin: 0 auto;
+}
+
+#One, #Two, #Three, #Four, #Five, #Six, #Seven, #Eight, #Nine {
+  height: 200px;
+  width: 200px;
+  border: 2px black solid;
+  display: inline-block;
+}
+
+h1{
+  text-align: center;
+}
+h2{
+text-align: center;
+
+}
+#ZERO , #CROSS {
+height: 200px;
+width: 200px;
+border: 2px black solid;
+}
+
+#ZERO {
+  background-color: red;
+
+}
+#CROSS {
+  background-color: blue;
+}
+/*p{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  color: white;
+}*/
+.red {
+  background-image: url("tictactoe-x.jpg");
+}
+.blue{
+    background-image: url("tictactoe-o.jpg");
+}
+
+#restart {
+height: 50px;
+width: 100px;
+/*border: 2px solid black;*/
+text-align: center;
+margin: 0 auto;
+}
+
+#word {
+font-size: 20px;
+font-weight: bold;
+}
